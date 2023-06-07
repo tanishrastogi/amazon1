@@ -1,0 +1,131 @@
+
+
+.home_section{
+    position: relative;
+    top: 80px;
+    /* background-color:#232F3E; */
+    /* marg */
+}
+
+.bannerImg{
+    width: 100vw;
+    /* position: relative; */
+}
+
+
+.products_div{
+    padding:3px 10px 3px 10px;
+    align-self: center;
+    /* height: 20px;     */
+}
+
+.products_section{
+    background:white;
+    /* box-shadow: 5px 5px 2px 1px rgba(0, 0, 0, 0.5); */
+    /* box-shadow: inherit; */
+    border-radius: 20px; 
+}
+
+
+.products_deal{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 85px 30px 55px;
+}
+
+.product_box{
+    display:flex;
+    flex-direction: column;
+    margin: 30px;
+    /* height: 70vh; */
+    align-items: center;
+    text-align: center;
+    color: rgb(22, 22, 22);
+}
+
+.product_box:link{
+    text-decoration: none !important;
+}
+
+
+
+.box_image img{
+    width: 10em;
+    height: 10em;
+}
+
+.product_box .products_name{
+    padding:30px 5px 0px 5px;
+    text-decoration: none;
+}
+
+.slide_part{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    padding:3px 3px;
+    align-self: center;
+    /* width: 25vw; */
+    /* background-color:rgb(223, 211, 211); */
+
+}
+
+.left_slide{
+    position: relative;
+    width: 75vw;
+}
+
+.right_slide {
+    margin: 3px 0 0 -2px;
+    background-color: white;
+    border-radius: 20px;
+    width: 23vw;
+    height: fit-content;
+    
+}
+
+.right_slide img{
+        
+        display: block;
+        /* margin-top: 13px; */
+        width: 23vw;
+        height: 60vh;
+        margin: 13px auto;
+    
+}
+
+.right_slide h4{
+    margin: 20px 0 20px 40px;
+}
+
+.AllSlides{
+    background-color: grey;
+    /* margin-bottom:530px ; */
+    padding-bottom: 50px;
+}
+
+
+@media (max-width:600px){
+    .right_slide , .products_offer , .products_tagline{
+        display: none;
+    }
+
+    .left_slide{
+        width: 95vw;
+    }
+    .products_imgs{
+        /* display: none; */
+        width:2px;
+        height: 5px;
+    }
+    
+    .banner_part{
+        position: relative;
+        top: -80px;
+        max-height: 20px;
+    }
+
+    body{
+        display: none;
+    }
+}

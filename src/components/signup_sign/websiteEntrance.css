@@ -1,0 +1,91 @@
+
+
+.section{
+    margin: -50px 0;
+    position: relative;
+    width: 98%;
+    top: 60px;
+    max-height: 90vh;
+    /* overflow-y: hidden; */
+    /* border: 1px solid black; */
+    /* padding:0; */
+}
+
+.signIn_container{
+    width: 25%;
+    margin: auto;
+    /* display: flex; */
+    flex-direction: column;
+    /* align-items: center;            align-items works only when display is set to flex */
+    /* border: 1px solid black;  */
+    
+}
+.sign_header img{
+    width: 200px;
+    margin: -40px 5vw;
+    cursor: pointer;
+    user-select: none;
+}
+
+.signIn_form{
+    border: 1px solid #c9c9c9;
+    padding: 10px 40px 10px 30px;
+    /* margin: ; */
+}
+
+.signIn_form h1{
+    font-size: 27px;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.signIn_form label{
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+.signIn_form input{
+    width: 100%;
+    height: 31px;
+    padding: 3px 7px;
+    border-radius: 3px;
+    outline: none;
+    border:1px solid #a6a6a6;
+    margin-bottom: 10px;
+    margin-top: 1px;
+}
+
+.signIn_btn{
+    margin-top: 15px;
+    margin-bottom: 23px;
+    margin-left:02px ;
+    width: 104%;
+    background: #f3d078;
+    cursor: pointer;
+    border:1px solid #9c7e31;
+    height: 31px;
+    outline: none;
+    border-radius: 3px;
+    color: #111;
+    background: linear-gradient(to bottom,#f7dfa5,#f0c14b);
+}
+
+.create_account button{
+    /* font-size: 13px; */
+    /* margin-top: 10px; */
+    width:24.5vw;
+    height: 30px;
+    /* margin: 0 0 0 25px; */
+    border-radius: 3px;
+    outline: none;
+    border:1px solid rgba(66, 61, 61 , 0.5);
+    background: linear-gradient(to bottom,rgba(143, 141, 141, 0.1),rgba(0,0,0,0.2));
+    cursor: pointer;
+}
+
+.accountPositive{
+    font-size: 13px;
+    color: #222;
+    margin: 25px 0 0  0;
+}
