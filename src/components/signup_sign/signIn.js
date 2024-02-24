@@ -55,7 +55,7 @@ const [userData , setUserData] = useState("");
     const loginData = async(e)=>{
         e.preventDefault();
         const {email , password} = logData;
-        const res = await fetch("/login" , {
+        const res = await fetch("https://charliesamazon.onrender.com/login" , {
             method:"POST",
             headers:{
                 "Content-type":"application/json"
