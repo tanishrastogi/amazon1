@@ -4,7 +4,7 @@ function Option({deleteData , get}){
 
     const removeData = async(req,res)=>{
         try {
-            const res = await fetch("/remove/"+deleteData , {
+            const res = await fetch("https://charliesamazon.onrender.com/remove/"+deleteData , {
                 method:"DELETE",
                 headers:{
                     Accept:"application/json",
