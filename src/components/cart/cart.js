@@ -90,7 +90,7 @@ function Cart(e){
     
     
     async function addtocart(id , productInfo){
-        const checkres = await fetch("/addcart/"+productInfo+"/"+id ,  {
+        const checkres = await fetch("https://charliesamazon.onrender.com/addcart/"+productInfo+"/"+id ,  {
             method:"POST",
             headers:{
                 Accept :"application/json",
