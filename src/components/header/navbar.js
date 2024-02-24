@@ -38,7 +38,7 @@ function Navbar() {
     const { account, setAccount } = useContext(loginContext);
 
     const getvaliduser = async () => {
-        const res = await fetch("/validUser", {
+        const res = await fetch("https://charliesamazon.onrender.com/validUser", {
             method: "GET",
             headers: {
                 Accept: "application/json",
@@ -60,7 +60,7 @@ function Navbar() {
 
 
     const logoutUser = async () => {
-        const res2 = await fetch("/logout", {
+        const res2 = await fetch("https://charliesamazon.onrender.com/logout", {
             method: "GET",
             headers: {
                 Accept: "application/json",
