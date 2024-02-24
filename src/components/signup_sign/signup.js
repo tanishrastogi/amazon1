@@ -50,7 +50,7 @@ function SignUp(){
         e.preventDefault();
         const {fName,email,mobile,password,cpassword} = signUpData;
         console.log(fName,email,mobile,password,cpassword);
-        const res = await fetch("register" , {
+        const res = await fetch("https://charliesamazon.onrender.com/register" , {
             method:"POST",
             headers:{
                 "Accept":"application/json",
