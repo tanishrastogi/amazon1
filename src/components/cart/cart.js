@@ -18,7 +18,7 @@ function Cart(e){
     // console.log(individiualData.url);
 
     const getIndividualData = async()=>{
-        const res = await fetch("/getProducts/"+productInfo+"/"+id , {
+        const res = await fetch("https://charliesamazon.onrender.com/getProducts/"+productInfo+"/"+id , {
             method:"GET",
             headers:{
                 "Content-Type":"application/json"
