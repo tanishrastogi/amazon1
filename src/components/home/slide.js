@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Divider } from "@mui/material";
@@ -36,7 +36,10 @@ function Slide({ productInfo, title }) {
 
     let datas = products[0] ? products[0] : ""
     // console.log(datas);
-
+    useEffect(()=>{
+        alert("products might take time to load!")
+    } , [])
+    
     if (datas != "") {
         console.log(datas);
         console.log(products);
