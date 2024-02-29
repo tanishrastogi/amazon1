@@ -88,7 +88,7 @@ function Slide({ productInfo, title }) {
     }
     else{
         <div className="product_box">
-            
+            Since the Backend is on render , it takes some time to show products
         </div>
     }
 
