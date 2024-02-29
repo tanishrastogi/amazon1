@@ -86,6 +86,11 @@ function Slide({ productInfo, title }) {
             </div>
         </div>
     }
+    else{
+        <div className="product_box">
+            
+        </div>
+    }
 
 }
 
